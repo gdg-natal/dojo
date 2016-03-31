@@ -1,0 +1,56 @@
+{
+    "participants": [
+        {
+            "username": "Richard",
+            "email": "rick@onbit.com.br",
+            "active": true
+        },
+        {
+            "username": "Alice Richelle",
+            "email": "richellerichard@onbit.com.br",
+            "active": true
+        },
+        {
+            "username": "Emmanuelle Richard",
+            "email": "emmanuellerichard@onbit.com.br",
+            "active": true
+        },
+        {
+            "username": "Isabelle Richard",
+            "email": "isabellerichard@onbit.com.br",
+            "active": true
+        },
+        {
+            "username": "Paulo Sérgio",
+            "email": "sergiopaulomd@gmail.com",
+            "active": true
+        },
+        {
+            "username": "David Allysson",
+            "email": "davidmoreirainformatica@gmail.com",
+            "active": true
+        },
+        {
+            "username": "Allycson Denis",
+            "email": "alycson2@gmail.com",
+            "active": true
+        },
+        {
+            "username": "Izanderson Guacy",
+            "email": "izandersonf@hotmail.com",
+            "active": true
+        },
+        {
+            "username": "Paulo Henrique",
+            "email": "pauloalbuquerque@bct.ect.ufrn.br",
+            "active": true
+        },
+        {
+            "username": "Victor Hugo",
+            "email": "victorhugo_araujo@hotmail.com",
+            "active": true
+        }
+    ],
+    "time": 300,
+    "port": 8080
+}
