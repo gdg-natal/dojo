@@ -2,18 +2,23 @@
 	<head></head>
 	<body>
 
-		<p id= "resultado"> </p>
+		<p id= "resultado"></p>
 
 
 		<script type="text/javascript">
+			var array1 = [1,2,3,4,5];
+			var array2 = [6,7,8,9,10];
+			
 			function produto (a, b) {
-				var produto = [];
+				var produto = 0;
 				for (var i = 0; i < a.lenght; i++) {
 					produto += a[i] * b[i]; 
 				
 				};
-				document.gete
+				document.getElementById("resultado").innerHTML = produto;
 			}
+
+			produto(array1, array2);
 		</script>
 	</body>
 </html>
