@@ -1,21 +1,19 @@
 <html>
 	<head></head>
 	<body>
-
-		<p id= "resultado"></p>
-
-
 		<script type="text/javascript">
-			var a = [1,2,3,4,5];
-			var b = [6,7,8,9,10];
-			
-			
+			function function_name (a, b) {
 				var produto = 0;
 				for (var i = 0; i<5; i=i+1) {
-					produto += a[i] * b[i]; 
+					produto = produto + a[i] * b[i]; 
 				
 				};
-			alert(produto);		
+				alert(produto);
+			};
+
+			var a = [1,2,3,4,5];
+			var b = [6,7,8,9,10];
+			function_name(a, b);
 		</script>
 	</body>
 </html>
