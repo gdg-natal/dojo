@@ -6,19 +6,16 @@
 
 
 		<script type="text/javascript">
-			var array1 = [1,2,3,4,5];
-			var array2 = [6,7,8,9,10];
+			var a = [1,2,3,4,5];
+			var b = [6,7,8,9,10];
 			
-			function produto (a, b) {
+			
 				var produto = 0;
-				for (var i = 0; i < a.lenght; i++) {
+				for (var i = 0; i<5; i=i+1) {
 					produto += a[i] * b[i]; 
 				
 				};
-				document.getElementById("resultado").innerHTML = produto;
-			}
-
-			produto(array1, array2);
+			alert(produto);		
 		</script>
 	</body>
 </html>
