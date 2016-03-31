@@ -12,16 +12,17 @@
 				alert(produto);
 			};
 
-			var a = [1,2,3,4,5];
-			var b = [6,7,8,9,10];
+			var a = [];
+			var b = [];
 			function_name(a, b);
-			var vquant=prompt('informe a quantidade de elementos');
-			for (var i = 0; i < 5; i++) {
-				var a = prompt(i + " elemento do vetor");
+			var vquant = prompt('informe a quantidade de elementos');
+			for (var i = 0; i < vquant.length; i++) {
+				var a = prompt(i + " elemento do vetor A");
 			};
-			
-			alert(vquant);
 
+			for (var i = 0; i < vquant.length; i++) {
+				var b = prompt(i + " elemento do vetor B");
+			};
 
 		</script>
 	</body>
