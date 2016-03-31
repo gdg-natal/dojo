@@ -5,24 +5,31 @@
 		<script type="text/javascript">
 			function function_name (a, b) {
 				var produto = 0;
-				for (var i = 0; i<5; i=i+1) {
-					produto = produto + a[i] * b[i]; 
+				var vtamanho;
+				if(a.length>b.length){
+					vtamanho=b.length
+				}else{
+					vtamanho=a.length
+				}
+				for (var i = 0; i<vtamanho; i=i+1) {
+					produto = produto + parseInt(a[i]) * parseInt(b[i]); 
 				
 				};
 				alert(produto);
 			};
 
-			var a = [];
-			var b = [];
-			function_name(a, b);
-			var vquant = prompt('informe a quantidade de elementos');
-			for (var i = 0; i < vquant.length; i++) {
-				var a = prompt(i + " elemento do vetor A");
-			};
+			//var a = [];
+			//var b = [];
+			//function_name(a, b);
+			var a = prompt('informe o array A ');
+			var b = prompt('informe o array B ');
+			var arraya=a.split(',');
+			var arrayb=b.split(',');
 
-			for (var i = 0; i < vquant.length; i++) {
-				var b = prompt(i + " elemento do vetor B");
-			};
+			console.log(arraya);
+			console.log(arrayb);
+
+			function_name(arraya, arrayb);
 
 		</script>
 	</body>
